@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:text="GAME OVER"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/focus"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="250sp"
+        android:gravity="center"
+        android:text="FOCUS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reaction"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="300sp"
+        android:gravity="center"
+        android:text="REACTION"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/overall"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="350sp"
+        android:gravity="center"
+        android:text="OVERALL"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="600sp"
+        android:gravity="center"
+        android:text="MAIN MENU"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/restart"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="500sp"
+        android:gravity="center"
+        android:text="PLAY AGAIN"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/menu_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMMARY"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"/>
+
+
+
+    <TextView
+        android:id="@+id/close_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650sp"
+
+        android:text="CLOSE"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#77202020">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:padding="5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="FOCUS [%]" />
+
+            <TextView
+                android:id="@+id/focus1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/focus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/focus3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/focus4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/focus5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="REACTION [%]" />
+
+            <TextView
+                android:id="@+id/reaction1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/reaction2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/reaction3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/reaction4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/reaction5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="OVERALL [%]" />
+
+            <TextView
+                android:id="@+id/overall1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/overall2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/overall3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/overall4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+
+            <TextView
+                android:id="@+id/overall5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="#ADFFFFFF"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="100" />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>
